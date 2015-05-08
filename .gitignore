@@ -15,6 +15,8 @@ CVS
 local.properties
 proguard/**
 target/**
+build/**
+libs/**
 bin/**
 obj/**
 doc/**
