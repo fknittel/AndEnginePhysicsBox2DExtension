@@ -10,6 +10,7 @@ android {
  
         ndk {
             moduleName "andenginephysicsbox2dextension"
+            ldLibs "GLESv2"
         }
     }
     sourceSets {
@@ -21,7 +22,7 @@ android {
             renderscript.srcDirs = ['src']
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
-            jni.srcDirs = []
+            jni.srcDirs = ['jni']
             jniLibs.srcDirs = ['libs']
         }
     }
